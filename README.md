@@ -1,8 +1,9 @@
 # WDI-40-racing-game
 
-This is a racing game that I created for Project 0 of my WDI 40 class.
+A basic drag racing game that has a theme of motorcycles who's outcome is always randomized.
 
-Objective:
-Who's going to win the race between these two epic sportbikes?
-
-Outcome of the winner is random each time.
+## Built with:
+HTML
+CSS
+Javascript
+Jquery
