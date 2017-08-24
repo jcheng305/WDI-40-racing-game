@@ -1,0 +1,86 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+}
+h1{
+  font-size: 50px;
+  color: Black;
+  text-align: center;
+}
+
+#racetrack {
+  background: url('../imgs/road.jpg') center left repeat-x;
+  height: 650px;
+  border-right: dashed 10px white;
+  box-sizing: border-box;
+  margin: 2px 0;
+}
+.motorcycle{
+  display: block;
+  position: relative;
+}
+
+#motorcycle1{
+  top: 64px;
+  height: 300px;
+  width: 300px;
+}
+#motorcycle2{
+  top: 80px;
+  height: 269px;
+  width: 300px;
+}
+#raceInfoContainer {
+  width: 80%:
+  margin: 40px auto 0;
+  background: #333;
+  height: 200px;
+  color: white;
+}
+#raceInfoContainer h2{
+  color: white;
+  text-transform: uppercase;
+  border-bottom: solid 1px white;
+  padding: 20px 0;
+}
+.raceInfo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  width: 50%;
+  float: left;
+}
+.raceInfo span{
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+
+}
+#raceInfo1 {
+  color: #77b82f;
+}
+#raceInfo2 {
+  color: #b82f3e;
+}
+input[type="button"] {
+  background: #77b72f;
+  color: white;
+  padding: 10px 20px;
+  border: solid 1px #444;
+}
+input#playAgain {
+  background: #fc3;
+  color: #444;
+  padding: 10px 20px;
+  border: solid 1px #444;
+}
+.clearfix:after {
+  content:"";
+  display: table;
+  clear: both;
+}
